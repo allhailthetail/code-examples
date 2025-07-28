@@ -1,0 +1,176 @@
+#+title: Main Program
+#+author:
+
+#+startup: overview indent hideblocks entitiespretty
+#+property: header-args:sh :results output
+#+property: header-args:cpp :noeval :noweb yes
+#+setupfile: https://fniessen.github.io/org-html-themes/org/theme-bigblow.setup
+
+* Notes
+- Goal: recreate ~echo~ (barebones with -n flag) using C++
+- NOTE: We're using [[https://www.boost.org/][BOOST]] for this project,
+        specifically the [[https://www.boost.org/library/latest/program_options/][program_options]] library.
+        If boost isn't installed, you'll need to go thru that process first
+        if you want to compile this code.
+
+* Scripts
+Installing BOOST:
+
+#+name: sh_install_boost
+#+begin_src sh :results silent
+sudo pacman -S boost boost-libs
+#+end_src
+
+* Source Code
+** [Boost] Program Options Implementation:
+
+Program options
+
+#+name: prog_opts.cpp
+#+begin_src cpp :mkdirp yes :tangle src/prog_opts.cpp :main no
+// Description: Parses args to tidy key-value pairs using boost libs
+#include "prog_opts.hpp"
+#include <boost/program_options.hpp>
+#include <iostream>
+
+namespace po = boost::program_options;
+
+ProgOpts get_opts(int ac, char* av[]) {
+
+    // Holds the options in our custom struct,
+    //   since we only need basic functionality right now...
+    ProgOpts opts {};
+
+    po::options_description desc("Allowed options");
+    desc.add_options()
+        // long-short value pairs go here. ORDER MATTERS!
+        ("help,h", "produce help message")
+
+        ("escapes,e", po::bool_switch(&opts.doEscapes),
+         "enable interpretation of backslash escapes")
+
+        ("no-newline,n", po::bool_switch(&opts.noNewline),
+         "do not output the trailing newline")
+
+        ("text", po::value<std::vector<std::string>>(&opts.text),
+         "Text to echo...")
+    ;
+
+    po::variables_map vm {};
+
+    // Positional argument binding
+    po::positional_options_description pd; pd.add("text", -1);
+
+    // Parsing begins here, feeds into vm variable.
+    po::store(po::command_line_parser(ac, av)
+              .options(desc)
+              .positional(pd)
+              .run(),
+              vm);
+
+    // Must be called after values are stored...
+    po::notify(vm);
+
+    // if help is called as a flag, display help and return to caller:
+    if (vm.count("help")) {
+        std::cout << desc << '\n';
+        return {};
+    }
+
+    return opts;
+}
+#+end_src
+
+** Program Options Header
+
+Including a header file like this makes it easier to understand later
+how to interface with the code. Essentially an abstraction layer.
+
+#+name: prog_opts.hpp
+#+begin_src cpp :mkdirp yes :tangle src/prog_opts.hpp :main no
+#pragma once
+#include <string>
+#include <vector>
+
+struct ProgOpts{
+    bool noNewline { false };
+    bool doEscapes { false };
+    std::vector<std::string> text {};
+};
+
+// Parse options from the command line at runtime.
+// Uses boost/program_options.hpp
+ProgOpts get_opts(int ac, char* av[]);
+ #+end_src
+
+** Main Program
+
+[[file:Makefile][GOTO: Makefile]]
+[[file:src/main.cpp][GOTO: main.cpp]]
+
+TODO: \\ is broken when -e is passed...
+Otherwise, it seems to work pretty well.
+#+name: main.cpp
+#+begin_src cpp :eval true :mkdirp yes :tangle src/main.cpp :results output :comments noweb
+// Imported libraries and headers:
+#include <iostream>
+#include "prog_opts.hpp"
+
+std::string add_escape(const std::string& s) {
+    std::string out {};
+    for (size_t i = 0; i < s.size(); ++i) {
+        if (s[i] == '\\' && (i + 1 < s.size())) {
+            switch(s[i + 1]) {
+                case 'a': out += '\a'; break;  // alert
+                case 'b': out += '\b'; break;  // backspace
+                case 'n': out += '\n'; break;  // newline
+                case 't': out += '\t'; break;  // tab
+                case '\\': out += '\\'; break; // literal backslash
+                default: out += s[i+1]; break;
+            }
+        i++; // Skip because it's already been processed.
+        } else { out+= s[i]; }
+    }
+    return out;
+}
+
+// Begin Program:
+int main(int ac, char* av[]) {
+
+    // retrieve program args:
+    auto opts = get_opts(ac, av);
+
+    // obey escapes?
+    if (opts.doEscapes) {
+        for (auto &word : opts.text) {
+            word = add_escape(word);
+        }
+    }
+
+    // add spaces between args...
+    for (size_t i = 0; i < opts.text.size(); ++i) {
+        std::cout << opts.text[i];
+        if (i + 1 < opts.text.size()) std::cout << ' ';
+    }
+
+    if (opts.noNewline == false) {
+    std::cout << '\n';
+    }
+
+    // Exit Successfully
+    return 0;
+ }
+#+end_src
+
+* Run
+#+name: sh_run_main
+#+begin_src sh :results output
+./eko -n oops,; echo \ no new line!
+./eko yay; echo new line!
+
+#+end_src
+
+#+RESULTS: sh_run_main
+: oops, no new line!
+: yay
+: new line!

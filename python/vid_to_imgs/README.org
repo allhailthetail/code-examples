@@ -1,0 +1,30 @@
+#+title: README
+#+startup: indent overview hideblocks entitiespretty
+
+* About:
+Your friend for parsing those long boring slideshow recordings into a concise, ordered grouping of image files
+so you can skim quickly for what you need.
+
+* Installing:
+#+begin_example sh
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python3 app.py
+#+end_example
+
+* Configuration:
+
+These variables are what you'll edit to customize the utility to your use cases.
+
+#+begin_example python
+# ------------------ Configuration ------------------ #
+video_path = "some_recording.mp4"
+output_dir = "./slide_screenshots"
+ssim_threshold = 0.90        # Lower = more sensitive to changes
+min_frame_interval = 30      # Frames to skip between screenshots
+frame_skip = 5               # Compare every Nth frame (e.g. every 5th = ~6 FPS)
+resize_dim = (320, 240)      # Resize frame to this size for comparison
+# --------------------------------------------------- #
+#+end_example

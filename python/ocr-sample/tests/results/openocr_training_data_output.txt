@@ -1,0 +1,206 @@
+# Detected 29/100, got 3 wrong it looks like.
+# So, it looks like tesseract is outperforming EasyOCR.
+./training_data/221194.jpg
+Detected number: 2, Confidence: 0.999999880790714
+Detected number: 2, Confidence: 0.9877810478210449
+Detected number: 1, Confidence: 0.9877810478210449
+Detected number: 1, Confidence: 0.8275259733200073
+Detected number: 9, Confidence: 0.8275259733200073
+Detected number: 4, Confidence: 0.9997403790203094
+./training_data/223233.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9063664173801673
+Detected number: 3, Confidence: 0.9063664173801673
+Detected number: 2, Confidence: 0.9063664173801673
+Detected number: 3, Confidence: 0.9063664173801673
+Detected number: 3, Confidence: 0.9534130991476963
+./training_data/223340.jpg
+Detected number: 2, Confidence: 0.9807005831083253
+Detected number: 2, Confidence: 0.9807005831083253
+Detected number: 3, Confidence: 0.9807005831083253
+Detected number: 3, Confidence: 0.9807005831083253
+Detected number: 4, Confidence: 0.9807005831083253
+Detected number: 0, Confidence: 0.9993482698274079
+./training_data/223956.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9927125428160096
+Detected number: 3, Confidence: 0.9927125428160096
+Detected number: 9, Confidence: 0.9927125428160096
+Detected number: 5, Confidence: 0.9999940395444042
+Detected number: 6, Confidence: 0.8333784127764297
+./training_data/223970.jpg
+Detected number: 2, Confidence: 0.9341110587120056
+Detected number: 2, Confidence: 0.9341110587120056
+Detected number: 9, Confidence: 0.9999992847443906
+Detected number: 7, Confidence: 0.9999996423721633
+Detected number: 0, Confidence: 0.999992489828859
+Detected number: 3, Confidence: 0.9992039596382405
+./training_data/224389.jpg
+Detected number: 2, Confidence: 0.9453837785566701
+Detected number: 2, Confidence: 0.9453837785566701
+Detected number: 4, Confidence: 0.9453837785566701
+Detected number: 3, Confidence: 0.9453837785566701
+Detected number: 8, Confidence: 0.9453837785566701
+Detected number: 9, Confidence: 0.9453837785566701
+./training_data/226279.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9991553130955684
+Detected number: 6, Confidence: 0.9999992847443906
+Detected number: 2, Confidence: 1.0
+Detected number: 7, Confidence: 0.9999988079074598
+Detected number: 9, Confidence: 0.9999997615814351
+./training_data/226510.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.837252282591357
+Detected number: 6, Confidence: 0.9999996423721633
+Detected number: 5, Confidence: 0.9999892711927174
+Detected number: 1, Confidence: 0.9489384979359308
+Detected number: 0, Confidence: 0.9997823606116628
+./training_data/226576.jpg
+Detected number: 0, Confidence: 0.9960999442278649
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 1.0
+Detected number: 6, Confidence: 0.9999983310706426
+Detected number: 5, Confidence: 0.9999814034372889
+Detected number: 7, Confidence: 0.9999978542339392
+./training_data/227434.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9975911167838319
+Detected number: 7, Confidence: 0.9975911167838319
+Detected number: 4, Confidence: 0.9975911167838319
+Detected number: 3, Confidence: 0.9975911167838319
+Detected number: 4, Confidence: 0.9997558742761612
+./training_data/227862.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9075508982673214
+Detected number: 7, Confidence: 0.9075508982673214
+Detected number: 8, Confidence: 0.9075508982673214
+Detected number: 6, Confidence: 0.9075508982673214
+Detected number: 2, Confidence: 0.9999394425977357
+./training_data/228157.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9303436250388275
+Detected number: 8, Confidence: 0.9303436250388275
+Detected number: 1, Confidence: 0.9303436250388275
+Detected number: 5, Confidence: 0.9303436250388275
+Detected number: 7, Confidence: 0.8026961309396544
+./training_data/228294.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 1.0
+Detected number: 8, Confidence: 0.9999994039536411
+Detected number: 2, Confidence: 1.0
+Detected number: 9, Confidence: 0.9644327111222383
+Detected number: 4, Confidence: 0.9881712413944257
+./training_data/228333.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9629948394100397
+Detected number: 8, Confidence: 0.9629948394100397
+Detected number: 3, Confidence: 0.9629948394100397
+Detected number: 3, Confidence: 0.9629948394100397
+Detected number: 3, Confidence: 1.0
+./training_data/229910.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 2, Confidence: 0.9822108818196594
+Detected number: 9, Confidence: 0.9822108818196594
+Detected number: 9, Confidence: 0.9869398474693298
+Detected number: 1, Confidence: 0.9869398474693298
+Detected number: 0, Confidence: 0.9999043964348999
+./training_data/230141.jpg
+Detected number: 2, Confidence: 0.9831537157200428
+Detected number: 3, Confidence: 0.9831537157200428
+Detected number: 0, Confidence: 0.9999582771838647
+Detected number: 1, Confidence: 0.8100148439407349
+Detected number: 4, Confidence: 0.8100148439407349
+Detected number: 1, Confidence: 0.94122986975799
+./training_data/231321.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 3, Confidence: 0.9999969005608733
+Detected number: 1, Confidence: 0.8138869061412474
+Detected number: 3, Confidence: 0.8138869061412474
+Detected number: 2, Confidence: 1.0
+Detected number: 4, Confidence: 0.9956450296568278
+./training_data/231354.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 3, Confidence: 0.9999953508431112
+Detected number: 1, Confidence: 0.8556792140007019
+Detected number: 3, Confidence: 0.8556792140007019
+Detected number: 5, Confidence: 0.9999811650209409
+Detected number: 4, Confidence: 0.9453320410041819
+./training_data/232444.jpg
+Detected number: 2, Confidence: 0.8581222992584925
+Detected number: 3, Confidence: 0.9999735357128117
+Detected number: 2, Confidence: 0.9319839180446899
+Detected number: 4, Confidence: 0.9319839180446899
+Detected number: 4, Confidence: 0.9319839180446899
+Detected number: 4, Confidence: 0.9995898429004946
+./training_data/233806.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 3, Confidence: 0.9854199017128724
+Detected number: 3, Confidence: 0.9854199017128724
+Detected number: 8, Confidence: 0.9854199017128724
+Detected number: 0, Confidence: 0.9999771119473735
+Detected number: 6, Confidence: 0.8242300917004322
+./training_data/239178.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 3, Confidence: 0.9329791387854761
+Detected number: 9, Confidence: 0.9329791387854761
+Detected number: 1, Confidence: 0.9983459403962947
+Detected number: 7, Confidence: 0.9999961853063724
+Detected number: 8, Confidence: 0.9999983310706426
+./training_data/240010.jpg
+Detected number: 2, Confidence: 0.9600763320922852
+Detected number: 4, Confidence: 0.9600763320922852
+Detected number: 0, Confidence: 0.9999589924248085
+Detected number: 0, Confidence: 0.9999611381491746
+Detected number: 1, Confidence: 0.99558650739732
+Detected number: 0, Confidence: 0.9999934434998217
+./training_data/240863.jpg
+Detected number: 2, Confidence: 0.9982068538665771
+Detected number: 4, Confidence: 0.9982068538665771
+Detected number: 0, Confidence: 0.9999102374193889
+Detected number: 8, Confidence: 1.0
+Detected number: 6, Confidence: 0.9999980926522767
+Detected number: 3, Confidence: 0.931992794740778
+./training_data/241138.jpg
+Detected number: 2, Confidence: 0.9959229230880737
+Detected number: 4, Confidence: 0.9959229230880737
+Detected number: 1, Confidence: 0.9891343952546248
+Detected number: 1, Confidence: 0.9891343952546248
+Detected number: 3, Confidence: 0.9891343952546248
+Detected number: 8, Confidence: 0.999999880790714
+./training_data/242805.jpg
+Detected number: 2, Confidence: 1.0
+Detected number: 4, Confidence: 0.9998636292223182
+Detected number: 2, Confidence: 1.0
+Detected number: 8, Confidence: 0.999999046325911
+Detected number: 0, Confidence: 0.8537158628251273
+Detected number: 5, Confidence: 0.9999787808590241
+./training_data/243336.jpg
+Detected number: 2, Confidence: 0.8565880761533452
+Detected number: 4, Confidence: 0.8565880761533452
+Detected number: 3, Confidence: 0.8565880761533452
+Detected number: 3, Confidence: 0.8565880761533452
+Detected number: 3, Confidence: 0.9999989271166818
+Detected number: 6, Confidence: 0.9999978542339392
+./training_data/243544.jpg
+Detected number: 2, Confidence: 0.999666272537353
+Detected number: 4, Confidence: 0.999666272537353
+Detected number: 3, Confidence: 0.9999978542339392
+Detected number: 5, Confidence: 0.9962347745895386
+Detected number: 4, Confidence: 0.9962347745895386
+Detected number: 4, Confidence: 0.9630915849464294
+./training_data/248212.jpg
+Detected number: 2, Confidence: 0.9984055672725777
+Detected number: 4, Confidence: 0.9984055672725777
+Detected number: 8, Confidence: 0.9984055672725777
+Detected number: 2, Confidence: 1.0
+Detected number: 1, Confidence: 0.9987591780259777
+Detected number: 2, Confidence: 0.9956097019895402
+./training_data/248242.jpg
+Detected number: 2, Confidence: 0.9993431905023903
+Detected number: 4, Confidence: 0.9993431905023903
+Detected number: 8, Confidence: 0.9993431905023903
+Detected number: 2, Confidence: 1.0
+Detected number: 4, Confidence: 0.9996756578268595
+Detected number: 2, Confidence: 0.9988387619969217
+

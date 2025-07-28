@@ -1,0 +1,157 @@
+# Predicted 52 matches of 100. If you exclude the very last number (hardest to read), that's 52% accuracy. Over the whole set, I estimate 57% accuracy.
+
+ ./training_data/220792.jpg
+220792 -- Overall Confidence: 95
+
+ ./training_data/221027.jpg
+221027 -- Overall Confidence: 61
+
+ ./training_data/221194.jpg
+221194 -- Overall Confidence: 90
+
+ ./training_data/221901.jpg
+221904 -- Overall Confidence: 92
+
+ ./training_data/222907.jpg
+222907 -- Overall Confidence: 95
+
+ ./training_data/223233.jpg
+223238 -- Overall Confidence: 73
+
+ ./training_data/224389.jpg
+224389 -- Overall Confidence: 92
+
+ ./training_data/226015.jpg
+226015 -- Overall Confidence: 67
+
+ ./training_data/226279.jpg
+226279 -- Overall Confidence: 56
+
+ ./training_data/226510.jpg
+226510 -- Overall Confidence: 93
+
+ ./training_data/226576.jpg
+226572 -- Overall Confidence: 82
+
+ ./training_data/227434.jpg
+227434 -- Overall Confidence: 95
+
+ ./training_data/227753.jpg
+227753 -- Overall Confidence: 82
+
+ ./training_data/227862.jpg
+227864 -- Overall Confidence: 79
+
+ ./training_data/227957.jpg
+227957 -- Overall Confidence: 93
+
+ ./training_data/228157.jpg
+228157 -- Overall Confidence: 62
+
+ ./training_data/228294.jpg
+228294 -- Overall Confidence: 53
+
+ ./training_data/228333.jpg
+228333 -- Overall Confidence: 92
+
+ ./training_data/228594.jpg
+228594 -- Overall Confidence: 91
+
+ ./training_data/228744.jpg
+228744 -- Overall Confidence: 95
+
+ ./training_data/229864.jpg
+229864 -- Overall Confidence: 95
+
+ ./training_data/229910.jpg
+229910 -- Overall Confidence: 89
+
+ ./training_data/230141.jpg
+230144 -- Overall Confidence: 72
+
+ ./training_data/230637.jpg
+230635 -- Overall Confidence: 76
+
+ ./training_data/230921.jpg
+230924 -- Overall Confidence: 55
+
+ ./training_data/231176.jpg
+231172 -- Overall Confidence: 61
+
+ ./training_data/231321.jpg
+231324 -- Overall Confidence: 84
+
+ ./training_data/231341.jpg
+231344 -- Overall Confidence: 72
+
+ ./training_data/231354.jpg
+231354 -- Overall Confidence: 91
+
+ ./training_data/232444.jpg
+232444 -- Overall Confidence: 96
+
+ ./training_data/234907.jpg
+234907 -- Overall Confidence: 96
+
+ ./training_data/236596.jpg
+236596 -- Overall Confidence: 95
+
+ ./training_data/237590.jpg
+237599 -- Overall Confidence: 82
+
+ ./training_data/239178.jpg
+239178 -- Overall Confidence: 94
+
+ ./training_data/239216.jpg
+239212 -- Overall Confidence: 58
+
+ ./training_data/239737.jpg
+239737 -- Overall Confidence: 91
+
+ ./training_data/240863.jpg
+240863 -- Overall Confidence: 90
+
+ ./training_data/241077.jpg
+241074 -- Overall Confidence: 59
+
+ ./training_data/241138.jpg
+241138 -- Overall Confidence: 95
+
+ ./training_data/242259.jpg
+242254 -- Overall Confidence: 87
+
+ ./training_data/242864.jpg
+242864 -- Overall Confidence: 95
+
+ ./training_data/242948.jpg
+242948 -- Overall Confidence: 96
+
+ ./training_data/242955.jpg
+242955 -- Overall Confidence: 89
+
+ ./training_data/243216.jpg
+243214 -- Overall Confidence: 63
+
+ ./training_data/243336.jpg
+243336 -- Overall Confidence: 93
+
+ ./training_data/243544.jpg
+243544 -- Overall Confidence: 91
+
+ ./training_data/243679.jpg
+243679 -- Overall Confidence: 94
+
+ ./training_data/245217.jpg
+245214 -- Overall Confidence: 75
+
+ ./training_data/245946.jpg
+245946 -- Overall Confidence: 96
+
+ ./training_data/247141.jpg
+247144 -- Overall Confidence: 86
+
+ ./training_data/247946.jpg
+247946 -- Overall Confidence: 68
+
+ ./training_data/248541.jpg
+248544 -- Overall Confidence: 60

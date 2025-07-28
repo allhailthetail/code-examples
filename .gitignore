@@ -1,0 +1,71 @@
+# ===== Python-related =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.py.class
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# PyInstaller
+dist/
+build/
+
+# Coverage
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# mypy / pylint / etc
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.cache/
+
+# Logs
+*.log
+
+# ===== C++-related =====
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+*.a
+*.lib
+*.lo
+*.la
+
+# CLion / VSCode / IDEs
+.idea/
+.vscode/
+
+# ===== General =====
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
